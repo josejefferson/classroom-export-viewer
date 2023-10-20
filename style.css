@@ -1,0 +1,72 @@
+/*
+Copyright 2019 psvenk
+This file is part of Classroom Export Viewer.
+
+Classroom Export Viewer is free/libre and open-source software pursuant to
+the terms of the MIT/Expat License; see file `COPYING` for more details.
+
+SPDX-License-Identifier: MIT
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    /* https://getbootstrap.com/docs/4.1/content/typography/ */
+}
+
+#import-filepicker {
+	margin: 20px 0;
+}
+
+#license-info, #license code {
+    display: block;
+    max-width: 80em;
+}
+
+#license br {
+    display: block;
+    content: "";
+    margin-top: 1em;
+}
+/* https://stackoverflow.com/a/31633969 */
+
+#posts-heading {
+	margin-top: 20px;
+}
+
+#description {
+    border: 0.0625rem solid #dadce0;
+		border-radius: 0.5rem;
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+}
+
+.post, .materials, .submissions, .submission {
+    border: 0.0625rem solid #dadce0;
+		border-radius: 0.5rem;
+    margin: 0.25em;
+    padding: 12px 24px;
+}
+
+.materials, .submission {
+	width: calc(50% - 8px);
+	display: inline-block;
+}
+
+.post-desc {
+	border-top: #dadce0 1px solid;
+	padding-top: 14px;
+	margin-top: 14px;
+}
+
+summary h5 {
+	display: inline-block;
+	color: #3c4043;
+	font-family: 'Google Sans', Roboto, Arial, sans-serif;
+	margin-bottom: 0;
+}
+
+summary small,
+.post-due {
+	display: block;
+	color: #5f6368;
+}
